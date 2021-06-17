@@ -1,0 +1,12 @@
+{
+    "description": "\n            Sample action that can be used in various contexts to reboot the\n            server(s) available to that context, or modified to reboot some subset thereof.\n        ",
+    "environments": [],
+    "groups": [],
+    "max-retries": 0,
+    "name": "Reboot Server(s)",
+    "resource-technologies": [],
+    "script-filename": "reboot_server.py",
+    "shared": "True",
+    "target-os-families": [],
+    "type": "CloudBolt Plug-in"
+}

@@ -1,0 +1,44 @@
+{
+    "action-inputs": [
+        {
+            "available-all-servers": false,
+            "description": null,
+            "field-dependency-controlling-set": [],
+            "field-dependency-dependent-set": [],
+            "global-options": [],
+            "hide-if-default-value": false,
+            "label": "Servers to Associate",
+            "name": "servers_to_associate",
+            "relevant-osfamilies": [],
+            "required": true,
+            "show-as-attribute": false,
+            "show-on-servers": false,
+            "type": "STR"
+        },
+        {
+            "available-all-servers": false,
+            "description": null,
+            "field-dependency-controlling-set": [],
+            "field-dependency-dependent-set": [],
+            "global-options": [],
+            "hide-if-default-value": false,
+            "label": "Tier",
+            "name": "service_item",
+            "relevant-osfamilies": [],
+            "required": true,
+            "show-as-attribute": false,
+            "show-on-servers": false,
+            "type": "STR"
+        }
+    ],
+    "description": "Run as a Resource Action to associate existing CB servers with the resource as part of a specific tier. Purely representational, no actual changes made.",
+    "environments": [],
+    "groups": [],
+    "max-retries": 0,
+    "name": "Associate Servers",
+    "resource-technologies": [],
+    "script-filename": "associate_servers_with_resource.py",
+    "shared": "True",
+    "target-os-families": [],
+    "type": "CloudBolt Plug-in"
+}

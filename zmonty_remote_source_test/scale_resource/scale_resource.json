@@ -1,0 +1,46 @@
+{
+    "action-inputs": [
+        {
+            "available-all-servers": false,
+            "description": null,
+            "field-dependency-controlling-set": [],
+            "field-dependency-dependent-set": [],
+            "global-options": [],
+            "hide-if-default-value": false,
+            "label": "Number of servers",
+            "maximum": "10.00",
+            "minimum": "-10.00",
+            "name": "servers_to_add",
+            "relevant-osfamilies": [],
+            "required": true,
+            "show-as-attribute": false,
+            "show-on-servers": false,
+            "type": "INT"
+        },
+        {
+            "available-all-servers": false,
+            "description": null,
+            "field-dependency-controlling-set": [],
+            "field-dependency-dependent-set": [],
+            "global-options": [],
+            "hide-if-default-value": false,
+            "label": "Tier",
+            "name": "service_item",
+            "relevant-osfamilies": [],
+            "required": true,
+            "show-as-attribute": false,
+            "show-on-servers": false,
+            "type": "STR"
+        }
+    ],
+    "description": "Add or remove servers in a specific tier and update the load balancer (if one exists).",
+    "environments": [],
+    "groups": [],
+    "max-retries": 0,
+    "name": "Scale Resource",
+    "resource-technologies": [],
+    "script-filename": "scale_resource.py",
+    "shared": "True",
+    "target-os-families": [],
+    "type": "CloudBolt Plug-in"
+}
