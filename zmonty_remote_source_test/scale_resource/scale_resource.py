@@ -1,6 +1,8 @@
 #!/usr/local/bin/python
 # blah blah blah the updated changes should show in CB
 import re
+import test 
+import updated_changes
 
 from common.methods import set_progress, create_decom_job_for_servers
 from emailtemplates import send_email
